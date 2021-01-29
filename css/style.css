@@ -288,3 +288,119 @@ select:-webkit-autofill:focus {
     padding: 10px 0;
 }
 
+.form-part {
+    padding: 115px 0 0 0;
+    height: 876px;
+}
+
+.title_form-part {
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.subtitle_form-part {
+    text-align: center;
+    margin: 25px auto;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 178px 0 34px;
+}
+
+.content-wrapper__form {
+    max-width: 470px;
+}
+
+.content-wrapper__item {
+    width: 100%;
+    margin: 0 0 15px 0;
+    padding: 17px;
+    border: none;
+    border-left: 4px solid #00C4C4;
+    background-color: #00C4C4;
+    opacity: 50%;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #fff;
+ }
+
+.content-wrapper__item:focus {
+    border-color: #355B82;
+    opacity: 100%;
+}
+
+.content-wrapper__item::placeholder {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: #fff;
+}
+
+.content-wrapper__title {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    width: 100%;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+}
+
+.content-wrapper__subtitle {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    width: 100%;
+    margin: 0 0 15px 0;
+}
+
+.form-part {
+    background-image: url(../images/form-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-wrapper__item_textarea {
+    max-width: 471px;
+    min-width: 471px;
+    min-height: 180px;
+    height: 220px;
+    max-height: 260px;
+    margin: 0 0 110px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #262626;
+    border-top: 2px solid rgba(255, 255, 255, 0.25);
+    color: #6b6b6b;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    padding: 30px 197px;
+    font-size: 13px;
+}
+
+.footer__red {
+    color: #FF2B58;
+    font-weight: 700;
+}
+
+.footer__logo {
+    font-family: "Pacifico";
+    font-size: 22px;
+}
+
+.header__link_logo {
+    font-family: "Pacifico";
+    font-size: 40px;
+    color: #000;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #B9B9B9;
+}
