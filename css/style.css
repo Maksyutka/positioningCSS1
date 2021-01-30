@@ -427,6 +427,8 @@ select:-webkit-autofill:focus {
     display: inline-flex;
     flex-direction: column;
     max-width: 400px;
+    position: relative;
+    left: 80px;
 }
 
 .our-services__item {
